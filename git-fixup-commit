@@ -1,0 +1,2 @@
+# fuzzy finder使ってfixupしたいコミットを探してそれにコミットする
+git commit --fixup $(git find-commit-hash)

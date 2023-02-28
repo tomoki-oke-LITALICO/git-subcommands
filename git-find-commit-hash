@@ -1,0 +1,2 @@
+# fuzzy finder使ってコミットを探す
+git log --oneline | fzf | cut -d " " -f 1

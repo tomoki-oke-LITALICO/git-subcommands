@@ -1,0 +1,2 @@
+# いまのブランチをremoteに強制的に同期する
+git fetch origin $(git current-branch) && git reset --hard origin/$(git current-branch)

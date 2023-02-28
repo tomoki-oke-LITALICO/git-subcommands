@@ -1,0 +1,2 @@
+# どこまでrebaseするかfuzzy finderで探した上で、そのコミットまでautosquashする
+git rebase -i --autosquash $(git find-commit-hash)
